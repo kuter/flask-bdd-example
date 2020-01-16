@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if logged %}
+        <h1>Logged in</h1>
+        <p>Thanks !</p>
+    {% else %} 
+        <h1>Login Failed</h1>
+    {% endif %}
+{% endblock content %}
