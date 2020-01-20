@@ -4,11 +4,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-morelia = "*"
+morelia = ">=0.9.2"
 splinter = {extras = ["flask"],version = "*"}
+black = "==19.3b0"
 
 [packages]
-flask = "*"
+flask = ">=1.1.1"
 
 [requires]
 python_version = "3.7"
