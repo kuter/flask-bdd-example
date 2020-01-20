@@ -1,3 +1,5 @@
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+
 # Flask BDD example
 
 The main purpose of this repository is to show how to deal with [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) tests using [Flask](https://palletsprojects.com/p/flask/), [Morelia](https://morelia.readthedocs.io/en/latest/index.html) and [Splinter](https://splinter.readthedocs.io/en/latest/).
